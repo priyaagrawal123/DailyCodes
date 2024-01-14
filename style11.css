@@ -1,0 +1,12 @@
+div{
+    background-color: blueviolet;
+    display: inline-block; 
+    margin:25px;
+    padding:50px;
+    display:none;
+    
+                             /*aise likhe to 1 line me aa jate*/
+}
+#two {
+    display: none;
+}
