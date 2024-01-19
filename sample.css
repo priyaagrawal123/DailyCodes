@@ -1,0 +1,156 @@
+*{
+margin: 0px;
+border: border-box;
+ font-family:Arial;
+}
+
+.navbar{
+    height: 70px;
+    background-color:white;
+    border:2px solid rgb(8, 7, 7);
+    display:flex;
+   
+} 
+
+.navbar:hover{
+    border: 2px solid rgb(8, 7, 7);
+}
+ .navlogo{   
+
+     height: 50px; 
+         width: 60px; 
+ } 
+
+.logo { 
+
+ background-image: url("logo.jpeg"); 
+    height: 50px; 
+    width: 50px;
+    background-size:cover;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+.navaddress i{
+    margin-top: 6px;
+    margin-left: 2px;
+    margin-bottom: 20px;
+}
+
+
+.navlist{ 
+    /* display: flex;  */
+    padding:4px 4px;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 100px;
+    margin-top:12px ;
+    margin-bottom: 20px;
+    display: flex;
+   
+ } 
+
+ /* .border{ 
+     border:2px solid transparent;     
+ }  */
+
+ .border:hover{ 
+    border:2px solid black; 
+    
+
+ } 
+ .border:hover{ 
+    border:2px solid black; 
+    
+
+ } 
+
+/*box3*/
+.navsearch:hover{
+
+    border: 2px solid skyblue;
+}
+
+
+.navsearch{
+    display: flex; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 150px;
+    background-color:lightskyblue;
+    border-radius: 4px;
+    font-size: 30px;
+    width: 600px;
+}
+
+.searchinput {
+width: 600px;
+}
+
+
+/*box4*/
+
+.navlogin {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+.navlogin:hover {
+    border: 2px solid black;
+}
+
+/*box5*/
+.cart{
+    background-image: url("cart.png");
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.navcart:hover {
+border: 2px solid black;
+}
+
+/*box6*/
+.navcart {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    font-weight: 700;
+}
+
+/*panel*/
+
+.panel{
+    height: 50px;
+    display: flex;
+
+}
+
+.paneloptions p {
+    display: inline;
+    margin-left: 105px;
+    margin-top: 50;
+}
+.paneloptions {
+    margin:38px;
+    font-size: 0.45rem;
+}
+
+
+/*box2*/
+/* .address1 { */
+/* color: #cccccc; */
+/* font: rem; */
+/* } */
+
+/* .address2{ */
+    /* color: black; */
+    /* font: rem; */
+/* } */
+
+/* .navaddress{ */
+    /* text-align: right 100px; */
+/* } */
