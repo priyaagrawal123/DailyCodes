@@ -1,0 +1,23 @@
+#box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: bisque;
+    animation: colorAnimate 4s ease-in 1s infinie normal;
+    
+}
+    @keyframes colorAnimate {
+        0% {
+            left:1px;
+            background-color: aqua;}
+            50% {
+                left:50px;
+                background-color:rosybrown;}
+                100% {
+                    left:200px;
+                    background-color:blue;
+                    color: white;
+                }
+            }
