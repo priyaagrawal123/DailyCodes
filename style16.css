@@ -1,0 +1,75 @@
+div{
+    width:100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+@media(width:300px){
+    div{
+    
+        background-color: brown;    /*at 300*/
+    }
+}
+@media(min-width:300px){
+    div{
+    
+        background-color: rgb(23, 2, 2);    /*above 300 */
+    }
+}
+
+#box1 {
+    width: 350px;
+    height: 350px;
+    background-color: aqua;
+    transition-property: all;
+  /* transition-duration: 2s; */
+   transition-timing-function:ease-in;  /*andar jata box o*/
+   transition-timing-function:ease-out;
+
+  /* transition-delay: 2s; */
+  transform:rotate(45deg);
+   transform:rotateX(45deg); 
+   transform:rotateY(45deg);       
+   transform:rotateZ(45deg); 
+
+   transform:scale(2,1);
+   transform:scale(1);
+   transition:ease-in;
+
+   transform:skew(30deg);
+  
+}
+
+
+
+@media(max-width:300px){
+    #box1{
+        background-color: green;                         /*till 300*/
+    }                                                     
+}
+
+@media(min-width:60px)and (max-width:300px){
+    #box1{
+        background-color: green;                         /*between 60 to 300px*/
+    }                                                     
+}
+
+
+#box1:hover{
+     background-color: brown; 
+     color:azure; 
+         font-size: 5px; 
+    transform: rotate(90deg);
+    /* transition-delay: 5s;     */
+    /* transform: translate(20px);  */
+    /* transform: translate(-20px);  */
+ /* transform: translate(20px,50px);  */
+ transform: translateX(-20px);  
+ /* transform: translateY(20px);  */
+                                                   /*move*/
+}
+#box1:active{ 
+    background-color: brown;
+    color:azure;
+    font-size: 5px;
+}
