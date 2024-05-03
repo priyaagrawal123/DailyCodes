@@ -1,0 +1,15 @@
+let name = "its me here";
+let letter = name.length;
+let pants = name.charAt(0);
+console.log(letter);
+console.log(pants);
+let pants11 = name.charCodeAt(0);
+console.log(pants11);
+let pants12 = name.at(0);
+console.log(pants12);
+let pants14 = name[0];
+console.log(pants14);
+let text = "Apple, Banana, Kiwi";
+let part = text.slice(7, 13);
+console.log(part);
+w2 = window.open("http://www.w3schools.com");  
